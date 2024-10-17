@@ -26,9 +26,9 @@ class SleepScoreApp(QMainWindow):
             self.ui.lineEdit_mod_act,
             self.ui.lineEdit_rest_hr,
             self.ui.lineEdit_seden,
-            self.ui.lineEdit_asleep,
-            self.ui.lineEdit_awake,
-            self.ui.lineEdit_deep_sleep,
+            self.ui.lineEdit_asleep,  # 7
+            self.ui.lineEdit_awake,   # 8
+            # self.ui.lineEdit_deep_sleep,  # 9
             self.ui.lineEdit_restl,
             self.ui.lineEdit_dz0,
             self.ui.lineEdit_dz1,
@@ -50,6 +50,8 @@ class SleepScoreApp(QMainWindow):
             self.ui.checkBox_Strength
         ]
         # self.progressBarValue(100)
+
+        self.b = []
 
         self.ui.pushButton_input.clicked.connect(lambda: self.ui.stackedWidget.setCurrentIndex(1))
         self.ui.pushButton_eval.clicked.connect(self.evaluate_score)
@@ -110,7 +112,13 @@ class SleepScoreApp(QMainWindow):
     def evaluate_score(self):
         X = []
 
-        for field in self.text_fields[:-1]:
+        for field in self.text_fields[:7]:
+            X.append(float(field.text()))
+
+        for field in self.b:
+            X.append(float(field))
+
+        for field in self.text_fields[9:-1]:
             X.append(float(field.text()))
 
         X.append(1 if self.text_fields[-1].text().lower() == "yes" else 0)
@@ -134,7 +142,10 @@ class SleepScoreApp(QMainWindow):
         for field in self.check_fields:
             field.setChecked(False)
 
+        self.b = []
+
     def load_from_json(self):
+        self.clear()
         dialog = QFileDialog()
         dialog.exec()
 
@@ -144,11 +155,14 @@ class SleepScoreApp(QMainWindow):
             data = json.load(file)
             data = list(data.values())
 
-            for key, value in zip(self.text_fields, data[:-8]):
+            for key, value in zip(self.text_fields, data[:-11]):
                 key.setText(str(value))
 
-            for key, value in zip(self.check_fields, data[-8:]):
+            for key, value in zip(self.check_fields, data[-11:-3]):
                 key.setChecked(bool(value))
+
+            for value in data[-3:]:
+                self.b.append(value)
 
         self.ui.stackedWidget.setCurrentIndex(1)
 

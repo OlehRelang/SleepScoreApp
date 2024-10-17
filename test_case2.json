@@ -6,9 +6,8 @@
    "moderately_active_minutes": 14,
    "resting_heart_rate": 58.663436,
    "sedentary_minutes": 556,
-   "minutesAsleep": 512.0,
-   "minutesAwake": 53.0,
-   "deep_sleep_in_minutes": 118,
+   "time_asleep": "21:32",
+   "time_awake": "08:55",
    "restlessness": 0.055906,
    "BELOW_DEFAULT_ZONE_1": 1296,
    "IN_DEFAULT_ZONE_1": 100,
@@ -24,5 +23,8 @@
    "Aerobic": 1,
    "Cardio": 0,
    "Sport": 0,
-   "Strength": 0
+   "Strength": 0,
+   "minutesAsleep": 512.0,
+   "minutesAwake": 53.0,
+   "deep_sleep_in_minutes": 118
 }

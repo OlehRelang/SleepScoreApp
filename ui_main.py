@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainXeHeCj.ui'
+## Form generated from reading UI file 'mainkQrssw.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.3
 ##
@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(600, 800)
+        MainWindow.resize(600, 820)
         MainWindow.setStyleSheet(u"background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0.15 rgba(142, 148, 242, 255), stop:0.85 rgba(182, 204, 254, 255));\n"
 "\n"
 "")
@@ -124,197 +124,91 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.page_home)
         self.page_input = QWidget()
         self.page_input.setObjectName(u"page_input")
-        self.verticalLayout_11 = QVBoxLayout(self.page_input)
-        self.verticalLayout_11.setObjectName(u"verticalLayout_11")
-        self.verticalLayout_11.setContentsMargins(10, 5, 5, 10)
-        self.verticalSpacer_7 = QSpacerItem(20, 30, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
-
-        self.verticalLayout_11.addItem(self.verticalSpacer_7)
-
+        self.verticalLayout_13 = QVBoxLayout(self.page_input)
+        self.verticalLayout_13.setSpacing(10)
+        self.verticalLayout_13.setObjectName(u"verticalLayout_13")
         self.gridLayout = QGridLayout()
         self.gridLayout.setObjectName(u"gridLayout")
-        self.verticalLayout_5 = QVBoxLayout()
-        self.verticalLayout_5.setObjectName(u"verticalLayout_5")
-        self.label_18 = QLabel(self.page_input)
-        self.label_18.setObjectName(u"label_18")
-        self.label_18.setFont(font1)
-        self.label_18.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.verticalLayout_6 = QVBoxLayout()
+        self.verticalLayout_6.setObjectName(u"verticalLayout_6")
+        self.label_20 = QLabel(self.page_input)
+        self.label_20.setObjectName(u"label_20")
+        self.label_20.setFont(font1)
+        self.label_20.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: none;")
-        self.label_18.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_20.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_5.addWidget(self.label_18)
+        self.verticalLayout_6.addWidget(self.label_20)
 
-        self.lineEdit_awake = QLineEdit(self.page_input)
-        self.lineEdit_awake.setObjectName(u"lineEdit_awake")
-        self.lineEdit_awake.setMinimumSize(QSize(180, 30))
-        self.lineEdit_awake.setFont(font1)
-        self.lineEdit_awake.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.lineEdit_fluid = QLineEdit(self.page_input)
+        self.lineEdit_fluid.setObjectName(u"lineEdit_fluid")
+        self.lineEdit_fluid.setMinimumSize(QSize(180, 30))
+        self.lineEdit_fluid.setFont(font1)
+        self.lineEdit_fluid.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "padding-left: 10px;\n"
 "background-color: rgba(157, 169, 247, 50);\n"
 "border: 2px solid rgb(255, 255, 255);\n"
 "border-radius: 5px;")
 
-        self.verticalLayout_5.addWidget(self.lineEdit_awake)
+        self.verticalLayout_6.addWidget(self.lineEdit_fluid)
 
-        self.label_12 = QLabel(self.page_input)
-        self.label_12.setObjectName(u"label_12")
-        self.label_12.setFont(font1)
-        self.label_12.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.verticalSpacer_5 = QSpacerItem(20, 78, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Ignored)
+
+        self.verticalLayout_6.addItem(self.verticalSpacer_5)
+
+
+        self.gridLayout.addLayout(self.verticalLayout_6, 2, 0, 1, 1)
+
+        self.verticalLayout_8 = QVBoxLayout()
+        self.verticalLayout_8.setObjectName(u"verticalLayout_8")
+        self.label_10 = QLabel(self.page_input)
+        self.label_10.setObjectName(u"label_10")
+        font2 = QFont()
+        font2.setPointSize(14)
+        font2.setBold(True)
+        font2.setKerning(True)
+        self.label_10.setFont(font2)
+        self.label_10.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: none;")
-        self.label_12.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_10.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_5.addWidget(self.label_12)
+        self.verticalLayout_8.addWidget(self.label_10)
 
-        self.lineEdit_asleep = QLineEdit(self.page_input)
-        self.lineEdit_asleep.setObjectName(u"lineEdit_asleep")
-        self.lineEdit_asleep.setMinimumSize(QSize(180, 30))
-        self.lineEdit_asleep.setFont(font1)
-        self.lineEdit_asleep.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.lineEdit_dz2 = QLineEdit(self.page_input)
+        self.lineEdit_dz2.setObjectName(u"lineEdit_dz2")
+        self.lineEdit_dz2.setMinimumSize(QSize(180, 30))
+        self.lineEdit_dz2.setFont(font1)
+        self.lineEdit_dz2.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "padding-left: 10px;\n"
 "background-color: rgba(157, 169, 247, 50);\n"
 "border: 2px solid rgb(255, 255, 255);\n"
 "border-radius: 5px;")
 
-        self.verticalLayout_5.addWidget(self.lineEdit_asleep)
+        self.verticalLayout_8.addWidget(self.lineEdit_dz2)
 
-        self.label_4 = QLabel(self.page_input)
-        self.label_4.setObjectName(u"label_4")
-        self.label_4.setFont(font1)
-        self.label_4.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.label_16 = QLabel(self.page_input)
+        self.label_16.setObjectName(u"label_16")
+        self.label_16.setFont(font1)
+        self.label_16.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: none;")
-        self.label_4.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_16.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_5.addWidget(self.label_4)
+        self.verticalLayout_8.addWidget(self.label_16)
 
-        self.lineEdit_deep_sleep = QLineEdit(self.page_input)
-        self.lineEdit_deep_sleep.setObjectName(u"lineEdit_deep_sleep")
-        self.lineEdit_deep_sleep.setMinimumSize(QSize(180, 30))
-        self.lineEdit_deep_sleep.setFont(font1)
-        self.lineEdit_deep_sleep.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.lineEdit_dz3 = QLineEdit(self.page_input)
+        self.lineEdit_dz3.setObjectName(u"lineEdit_dz3")
+        self.lineEdit_dz3.setMinimumSize(QSize(180, 30))
+        self.lineEdit_dz3.setFont(font1)
+        self.lineEdit_dz3.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "padding-left: 10px;\n"
 "background-color: rgba(157, 169, 247, 50);\n"
 "border: 2px solid rgb(255, 255, 255);\n"
 "border-radius: 5px;")
 
-        self.verticalLayout_5.addWidget(self.lineEdit_deep_sleep)
-
-        self.label_9 = QLabel(self.page_input)
-        self.label_9.setObjectName(u"label_9")
-        self.label_9.setFont(font1)
-        self.label_9.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"background-color: none;")
-        self.label_9.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_5.addWidget(self.label_9)
-
-        self.lineEdit_restl = QLineEdit(self.page_input)
-        self.lineEdit_restl.setObjectName(u"lineEdit_restl")
-        self.lineEdit_restl.setMinimumSize(QSize(180, 30))
-        self.lineEdit_restl.setFont(font1)
-        self.lineEdit_restl.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"padding-left: 10px;\n"
-"background-color: rgba(157, 169, 247, 50);\n"
-"border: 2px solid rgb(255, 255, 255);\n"
-"border-radius: 5px;")
-
-        self.verticalLayout_5.addWidget(self.lineEdit_restl)
+        self.verticalLayout_8.addWidget(self.lineEdit_dz3)
 
 
-        self.gridLayout.addLayout(self.verticalLayout_5, 0, 4, 1, 1)
-
-        self.horizontalSpacer = QSpacerItem(150, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
-
-        self.gridLayout.addItem(self.horizontalSpacer, 2, 2, 1, 1)
-
-        self.verticalLayout_4 = QVBoxLayout()
-        self.verticalLayout_4.setObjectName(u"verticalLayout_4")
-        self.label_3 = QLabel(self.page_input)
-        self.label_3.setObjectName(u"label_3")
-        self.label_3.setFont(font1)
-        self.label_3.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"background-color: none;")
-        self.label_3.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_4.addWidget(self.label_3)
-
-        self.lineEdit_light_act = QLineEdit(self.page_input)
-        self.lineEdit_light_act.setObjectName(u"lineEdit_light_act")
-        self.lineEdit_light_act.setEnabled(True)
-        self.lineEdit_light_act.setMinimumSize(QSize(180, 30))
-        self.lineEdit_light_act.setFont(font1)
-        self.lineEdit_light_act.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"padding-left: 10px;\n"
-"background-color: rgba(157, 169, 247, 50);\n"
-"border: 2px solid rgb(255, 255, 255);\n"
-"border-radius: 5px;")
-
-        self.verticalLayout_4.addWidget(self.lineEdit_light_act)
-
-        self.label_8 = QLabel(self.page_input)
-        self.label_8.setObjectName(u"label_8")
-        self.label_8.setFont(font1)
-        self.label_8.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"background-color: none;")
-        self.label_8.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_4.addWidget(self.label_8)
-
-        self.lineEdit_mod_act = QLineEdit(self.page_input)
-        self.lineEdit_mod_act.setObjectName(u"lineEdit_mod_act")
-        self.lineEdit_mod_act.setMinimumSize(QSize(180, 30))
-        self.lineEdit_mod_act.setFont(font1)
-        self.lineEdit_mod_act.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"padding-left: 10px;\n"
-"background-color: rgba(157, 169, 247, 50);\n"
-"border: 2px solid rgb(255, 255, 255);\n"
-"border-radius: 5px;")
-
-        self.verticalLayout_4.addWidget(self.lineEdit_mod_act)
-
-        self.label_11 = QLabel(self.page_input)
-        self.label_11.setObjectName(u"label_11")
-        self.label_11.setFont(font1)
-        self.label_11.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"background-color: none;")
-        self.label_11.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_4.addWidget(self.label_11)
-
-        self.lineEdit_very_act = QLineEdit(self.page_input)
-        self.lineEdit_very_act.setObjectName(u"lineEdit_very_act")
-        self.lineEdit_very_act.setMinimumSize(QSize(180, 30))
-        self.lineEdit_very_act.setFont(font1)
-        self.lineEdit_very_act.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"padding-left: 10px;\n"
-"background-color: rgba(157, 169, 247, 50);\n"
-"border: 2px solid rgb(255, 255, 255);\n"
-"border-radius: 5px;")
-
-        self.verticalLayout_4.addWidget(self.lineEdit_very_act)
-
-        self.label_14 = QLabel(self.page_input)
-        self.label_14.setObjectName(u"label_14")
-        self.label_14.setFont(font1)
-        self.label_14.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"background-color: none;")
-        self.label_14.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_4.addWidget(self.label_14)
-
-        self.lineEdit_seden = QLineEdit(self.page_input)
-        self.lineEdit_seden.setObjectName(u"lineEdit_seden")
-        self.lineEdit_seden.setMinimumSize(QSize(180, 30))
-        self.lineEdit_seden.setFont(font1)
-        self.lineEdit_seden.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"padding-left: 10px;\n"
-"background-color: rgba(157, 169, 247, 50);\n"
-"border: 2px solid rgb(255, 255, 255);\n"
-"border-radius: 5px;")
-
-        self.verticalLayout_4.addWidget(self.lineEdit_seden)
-
-
-        self.gridLayout.addLayout(self.verticalLayout_4, 0, 1, 1, 3)
+        self.gridLayout.addLayout(self.verticalLayout_8, 2, 2, 1, 1)
 
         self.verticalLayout_3 = QVBoxLayout()
         self.verticalLayout_3.setObjectName(u"verticalLayout_3")
@@ -405,59 +299,8 @@ class Ui_MainWindow(object):
 
         self.gridLayout.addLayout(self.verticalLayout_3, 0, 0, 1, 1)
 
-        self.verticalLayout_6 = QVBoxLayout()
-        self.verticalLayout_6.setObjectName(u"verticalLayout_6")
-        self.label_17 = QLabel(self.page_input)
-        self.label_17.setObjectName(u"label_17")
-        self.label_17.setFont(font1)
-        self.label_17.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"background-color: none;")
-        self.label_17.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_6.addWidget(self.label_17)
-
-        self.lineEdit_alco = QLineEdit(self.page_input)
-        self.lineEdit_alco.setObjectName(u"lineEdit_alco")
-        self.lineEdit_alco.setMinimumSize(QSize(180, 30))
-        self.lineEdit_alco.setFont(font1)
-        self.lineEdit_alco.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"padding-left: 10px;\n"
-"background-color: rgba(157, 169, 247, 50);\n"
-"border: 2px solid rgb(255, 255, 255);\n"
-"border-radius: 5px;")
-
-        self.verticalLayout_6.addWidget(self.lineEdit_alco)
-
-        self.label_20 = QLabel(self.page_input)
-        self.label_20.setObjectName(u"label_20")
-        self.label_20.setFont(font1)
-        self.label_20.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"background-color: none;")
-        self.label_20.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_6.addWidget(self.label_20)
-
-        self.lineEdit_fluid = QLineEdit(self.page_input)
-        self.lineEdit_fluid.setObjectName(u"lineEdit_fluid")
-        self.lineEdit_fluid.setMinimumSize(QSize(180, 30))
-        self.lineEdit_fluid.setFont(font1)
-        self.lineEdit_fluid.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-"padding-left: 10px;\n"
-"background-color: rgba(157, 169, 247, 50);\n"
-"border: 2px solid rgb(255, 255, 255);\n"
-"border-radius: 5px;")
-
-        self.verticalLayout_6.addWidget(self.lineEdit_fluid)
-
-        self.verticalSpacer_9 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
-
-        self.verticalLayout_6.addItem(self.verticalSpacer_9)
-
-
-        self.gridLayout.addLayout(self.verticalLayout_6, 2, 0, 1, 2)
-
-        self.verticalLayout_8 = QVBoxLayout()
-        self.verticalLayout_8.setObjectName(u"verticalLayout_8")
+        self.verticalLayout_11 = QVBoxLayout()
+        self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.label_15 = QLabel(self.page_input)
         self.label_15.setObjectName(u"label_15")
         self.label_15.setFont(font1)
@@ -465,7 +308,7 @@ class Ui_MainWindow(object):
 "background-color: none;")
         self.label_15.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_8.addWidget(self.label_15)
+        self.verticalLayout_11.addWidget(self.label_15)
 
         self.lineEdit_dz0 = QLineEdit(self.page_input)
         self.lineEdit_dz0.setObjectName(u"lineEdit_dz0")
@@ -477,7 +320,7 @@ class Ui_MainWindow(object):
 "border: 2px solid rgb(255, 255, 255);\n"
 "border-radius: 5px;")
 
-        self.verticalLayout_8.addWidget(self.lineEdit_dz0)
+        self.verticalLayout_11.addWidget(self.lineEdit_dz0)
 
         self.label_7 = QLabel(self.page_input)
         self.label_7.setObjectName(u"label_7")
@@ -486,7 +329,7 @@ class Ui_MainWindow(object):
 "background-color: none;")
         self.label_7.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_8.addWidget(self.label_7)
+        self.verticalLayout_11.addWidget(self.label_7)
 
         self.lineEdit_dz1 = QLineEdit(self.page_input)
         self.lineEdit_dz1.setObjectName(u"lineEdit_dz1")
@@ -498,71 +341,200 @@ class Ui_MainWindow(object):
 "border: 2px solid rgb(255, 255, 255);\n"
 "border-radius: 5px;")
 
-        self.verticalLayout_8.addWidget(self.lineEdit_dz1)
+        self.verticalLayout_11.addWidget(self.lineEdit_dz1)
 
-        self.label_10 = QLabel(self.page_input)
-        self.label_10.setObjectName(u"label_10")
-        font2 = QFont()
-        font2.setPointSize(14)
-        font2.setBold(True)
-        font2.setKerning(True)
-        self.label_10.setFont(font2)
-        self.label_10.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+
+        self.gridLayout.addLayout(self.verticalLayout_11, 2, 1, 1, 1)
+
+        self.verticalLayout_5 = QVBoxLayout()
+        self.verticalLayout_5.setObjectName(u"verticalLayout_5")
+        self.label_12 = QLabel(self.page_input)
+        self.label_12.setObjectName(u"label_12")
+        self.label_12.setFont(font1)
+        self.label_12.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: none;")
-        self.label_10.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_12.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_8.addWidget(self.label_10)
+        self.verticalLayout_5.addWidget(self.label_12)
 
-        self.lineEdit_dz2 = QLineEdit(self.page_input)
-        self.lineEdit_dz2.setObjectName(u"lineEdit_dz2")
-        self.lineEdit_dz2.setMinimumSize(QSize(180, 30))
-        self.lineEdit_dz2.setFont(font1)
-        self.lineEdit_dz2.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.lineEdit_asleep = QLineEdit(self.page_input)
+        self.lineEdit_asleep.setObjectName(u"lineEdit_asleep")
+        self.lineEdit_asleep.setMinimumSize(QSize(180, 30))
+        self.lineEdit_asleep.setFont(font1)
+        self.lineEdit_asleep.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "padding-left: 10px;\n"
 "background-color: rgba(157, 169, 247, 50);\n"
 "border: 2px solid rgb(255, 255, 255);\n"
 "border-radius: 5px;")
 
-        self.verticalLayout_8.addWidget(self.lineEdit_dz2)
+        self.verticalLayout_5.addWidget(self.lineEdit_asleep)
 
-        self.label_16 = QLabel(self.page_input)
-        self.label_16.setObjectName(u"label_16")
-        self.label_16.setFont(font1)
-        self.label_16.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.label_18 = QLabel(self.page_input)
+        self.label_18.setObjectName(u"label_18")
+        self.label_18.setFont(font1)
+        self.label_18.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: none;")
-        self.label_16.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_18.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.verticalLayout_8.addWidget(self.label_16)
+        self.verticalLayout_5.addWidget(self.label_18)
 
-        self.lineEdit_dz3 = QLineEdit(self.page_input)
-        self.lineEdit_dz3.setObjectName(u"lineEdit_dz3")
-        self.lineEdit_dz3.setMinimumSize(QSize(180, 30))
-        self.lineEdit_dz3.setFont(font1)
-        self.lineEdit_dz3.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+        self.lineEdit_awake = QLineEdit(self.page_input)
+        self.lineEdit_awake.setObjectName(u"lineEdit_awake")
+        self.lineEdit_awake.setMinimumSize(QSize(180, 30))
+        self.lineEdit_awake.setFont(font1)
+        self.lineEdit_awake.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "padding-left: 10px;\n"
 "background-color: rgba(157, 169, 247, 50);\n"
 "border: 2px solid rgb(255, 255, 255);\n"
 "border-radius: 5px;")
 
-        self.verticalLayout_8.addWidget(self.lineEdit_dz3)
+        self.verticalLayout_5.addWidget(self.lineEdit_awake)
+
+        self.label_9 = QLabel(self.page_input)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setFont(font1)
+        self.label_9.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"background-color: none;")
+        self.label_9.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.verticalLayout_5.addWidget(self.label_9)
+
+        self.lineEdit_restl = QLineEdit(self.page_input)
+        self.lineEdit_restl.setObjectName(u"lineEdit_restl")
+        self.lineEdit_restl.setMinimumSize(QSize(180, 30))
+        self.lineEdit_restl.setFont(font1)
+        self.lineEdit_restl.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"padding-left: 10px;\n"
+"background-color: rgba(157, 169, 247, 50);\n"
+"border: 2px solid rgb(255, 255, 255);\n"
+"border-radius: 5px;")
+
+        self.verticalLayout_5.addWidget(self.lineEdit_restl)
+
+        self.label_17 = QLabel(self.page_input)
+        self.label_17.setObjectName(u"label_17")
+        self.label_17.setFont(font1)
+        self.label_17.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"background-color: none;")
+        self.label_17.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.verticalLayout_5.addWidget(self.label_17)
+
+        self.lineEdit_alco = QLineEdit(self.page_input)
+        self.lineEdit_alco.setObjectName(u"lineEdit_alco")
+        self.lineEdit_alco.setMinimumSize(QSize(180, 30))
+        self.lineEdit_alco.setFont(font1)
+        self.lineEdit_alco.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"padding-left: 10px;\n"
+"background-color: rgba(157, 169, 247, 50);\n"
+"border: 2px solid rgb(255, 255, 255);\n"
+"border-radius: 5px;")
+
+        self.verticalLayout_5.addWidget(self.lineEdit_alco)
 
 
-        self.gridLayout.addLayout(self.verticalLayout_8, 2, 3, 1, 2)
+        self.gridLayout.addLayout(self.verticalLayout_5, 0, 2, 1, 1)
 
-        self.verticalSpacer_5 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.verticalLayout_4 = QVBoxLayout()
+        self.verticalLayout_4.setObjectName(u"verticalLayout_4")
+        self.label_3 = QLabel(self.page_input)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setFont(font1)
+        self.label_3.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"background-color: none;")
+        self.label_3.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        self.gridLayout.addItem(self.verticalSpacer_5, 1, 1, 1, 1)
+        self.verticalLayout_4.addWidget(self.label_3)
 
-        self.verticalSpacer_8 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.lineEdit_light_act = QLineEdit(self.page_input)
+        self.lineEdit_light_act.setObjectName(u"lineEdit_light_act")
+        self.lineEdit_light_act.setEnabled(True)
+        self.lineEdit_light_act.setMinimumSize(QSize(180, 30))
+        self.lineEdit_light_act.setFont(font1)
+        self.lineEdit_light_act.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"padding-left: 10px;\n"
+"background-color: rgba(157, 169, 247, 50);\n"
+"border: 2px solid rgb(255, 255, 255);\n"
+"border-radius: 5px;")
 
-        self.gridLayout.addItem(self.verticalSpacer_8, 1, 2, 1, 1)
+        self.verticalLayout_4.addWidget(self.lineEdit_light_act)
+
+        self.label_8 = QLabel(self.page_input)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setFont(font1)
+        self.label_8.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"background-color: none;")
+        self.label_8.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.verticalLayout_4.addWidget(self.label_8)
+
+        self.lineEdit_mod_act = QLineEdit(self.page_input)
+        self.lineEdit_mod_act.setObjectName(u"lineEdit_mod_act")
+        self.lineEdit_mod_act.setMinimumSize(QSize(180, 30))
+        self.lineEdit_mod_act.setFont(font1)
+        self.lineEdit_mod_act.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"padding-left: 10px;\n"
+"background-color: rgba(157, 169, 247, 50);\n"
+"border: 2px solid rgb(255, 255, 255);\n"
+"border-radius: 5px;")
+
+        self.verticalLayout_4.addWidget(self.lineEdit_mod_act)
+
+        self.label_11 = QLabel(self.page_input)
+        self.label_11.setObjectName(u"label_11")
+        self.label_11.setFont(font1)
+        self.label_11.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"background-color: none;")
+        self.label_11.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.verticalLayout_4.addWidget(self.label_11)
+
+        self.lineEdit_very_act = QLineEdit(self.page_input)
+        self.lineEdit_very_act.setObjectName(u"lineEdit_very_act")
+        self.lineEdit_very_act.setMinimumSize(QSize(180, 30))
+        self.lineEdit_very_act.setFont(font1)
+        self.lineEdit_very_act.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"padding-left: 10px;\n"
+"background-color: rgba(157, 169, 247, 50);\n"
+"border: 2px solid rgb(255, 255, 255);\n"
+"border-radius: 5px;")
+
+        self.verticalLayout_4.addWidget(self.lineEdit_very_act)
+
+        self.label_14 = QLabel(self.page_input)
+        self.label_14.setObjectName(u"label_14")
+        self.label_14.setFont(font1)
+        self.label_14.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"background-color: none;")
+        self.label_14.setAlignment(Qt.AlignmentFlag.AlignCenter)
+
+        self.verticalLayout_4.addWidget(self.label_14)
+
+        self.lineEdit_seden = QLineEdit(self.page_input)
+        self.lineEdit_seden.setObjectName(u"lineEdit_seden")
+        self.lineEdit_seden.setMinimumSize(QSize(180, 30))
+        self.lineEdit_seden.setFont(font1)
+        self.lineEdit_seden.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"padding-left: 10px;\n"
+"background-color: rgba(157, 169, 247, 50);\n"
+"border: 2px solid rgb(255, 255, 255);\n"
+"border-radius: 5px;")
+
+        self.verticalLayout_4.addWidget(self.lineEdit_seden)
 
 
-        self.verticalLayout_11.addLayout(self.gridLayout)
+        self.gridLayout.addLayout(self.verticalLayout_4, 0, 1, 1, 1)
 
-        self.verticalSpacer_6 = QSpacerItem(20, 20, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer_8 = QSpacerItem(180, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
-        self.verticalLayout_11.addItem(self.verticalSpacer_6)
+        self.gridLayout.addItem(self.verticalSpacer_8, 1, 1, 1, 1)
+
+
+        self.verticalLayout_13.addLayout(self.gridLayout)
+
+        self.verticalSpacer_6 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+
+        self.verticalLayout_13.addItem(self.verticalSpacer_6)
 
         self.verticalLayout_9 = QVBoxLayout()
         self.verticalLayout_9.setSpacing(10)
@@ -759,11 +731,11 @@ class Ui_MainWindow(object):
         self.verticalLayout_9.addLayout(self.horizontalLayout_2)
 
 
-        self.verticalLayout_11.addLayout(self.verticalLayout_9)
+        self.verticalLayout_13.addLayout(self.verticalLayout_9)
 
         self.verticalSpacer_3 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
-        self.verticalLayout_11.addItem(self.verticalSpacer_3)
+        self.verticalLayout_13.addItem(self.verticalSpacer_3)
 
         self.horizontalLayout_3 = QHBoxLayout()
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
@@ -797,6 +769,7 @@ class Ui_MainWindow(object):
         self.pushButton_load_2 = QPushButton(self.page_input)
         self.pushButton_load_2.setObjectName(u"pushButton_load_2")
         self.pushButton_load_2.setFont(font1)
+        self.pushButton_load_2.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.pushButton_load_2.setStyleSheet(u"QPushButton {\n"
 "color: rgb(255, 255, 255);\n"
 "border: 2px solid rgb(255, 255, 255);\n"
@@ -842,19 +815,20 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.addWidget(self.pushButton_eval)
 
 
-        self.verticalLayout_11.addLayout(self.horizontalLayout_3)
+        self.verticalLayout_13.addLayout(self.horizontalLayout_3)
 
         self.stackedWidget.addWidget(self.page_input)
         self.page_results = QWidget()
         self.page_results.setObjectName(u"page_results")
         self.verticalLayout_7 = QVBoxLayout(self.page_results)
+        self.verticalLayout_7.setSpacing(10)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
+        self.verticalLayout_7.setContentsMargins(-1, -1, -1, 15)
         self.resultWidget = QFrame(self.page_results)
         self.resultWidget.setObjectName(u"resultWidget")
         self.resultWidget.setStyleSheet(u"background-color: none;")
         self.verticalLayout_12 = QVBoxLayout(self.resultWidget)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
-        self.verticalLayout_12.setContentsMargins(-1, -1, -1, 30)
         self.label_6 = QLabel(self.resultWidget)
         self.label_6.setObjectName(u"label_6")
         self.label_6.setMaximumSize(QSize(16777215, 100))
@@ -943,13 +917,19 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_12.addWidget(self.circluarResult)
 
-        self.verticalSpacer_11 = QSpacerItem(20, 80, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
+        self.verticalSpacer_11 = QSpacerItem(20, 30, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Fixed)
 
         self.verticalLayout_12.addItem(self.verticalSpacer_11)
 
+        self.horizontalLayout_5 = QHBoxLayout()
+        self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
+        self.horizontalSpacer = QSpacerItem(140, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.horizontalLayout_5.addItem(self.horizontalSpacer)
+
         self.pushButton_back = QPushButton(self.resultWidget)
         self.pushButton_back.setObjectName(u"pushButton_back")
-        self.pushButton_back.setMinimumSize(QSize(0, 0))
+        self.pushButton_back.setMinimumSize(QSize(240, 0))
         self.pushButton_back.setMaximumSize(QSize(16777215, 16777215))
         self.pushButton_back.setFont(font1)
         self.pushButton_back.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
@@ -971,7 +951,14 @@ class Ui_MainWindow(object):
 "	background-color: rgb(141, 158, 255);\n"
 "}")
 
-        self.verticalLayout_12.addWidget(self.pushButton_back)
+        self.horizontalLayout_5.addWidget(self.pushButton_back)
+
+        self.horizontalSpacer_2 = QSpacerItem(140, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.horizontalLayout_5.addItem(self.horizontalSpacer_2)
+
+
+        self.verticalLayout_12.addLayout(self.horizontalLayout_5)
 
 
         self.verticalLayout_7.addWidget(self.resultWidget)
@@ -995,22 +982,12 @@ class Ui_MainWindow(object):
         self.label.setText(QCoreApplication.translate("MainWindow", u"SleepScoreApp", None))
         self.pushButton_load.setText(QCoreApplication.translate("MainWindow", u"Load from JSON", None))
         self.pushButton_input.setText(QCoreApplication.translate("MainWindow", u"Input manualy", None))
-        self.label_18.setText(QCoreApplication.translate("MainWindow", u"Awake", None))
-        self.lineEdit_awake.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_12.setText(QCoreApplication.translate("MainWindow", u"Asleep", None))
-        self.lineEdit_asleep.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Deep Sleep", None))
-        self.lineEdit_deep_sleep.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Restlessness", None))
-        self.lineEdit_restl.setPlaceholderText(QCoreApplication.translate("MainWindow", u"[0-1]", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Lightly Active", None))
-        self.lineEdit_light_act.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_8.setText(QCoreApplication.translate("MainWindow", u"Moderately Active", None))
-        self.lineEdit_mod_act.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_11.setText(QCoreApplication.translate("MainWindow", u"Very Active", None))
-        self.lineEdit_very_act.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_14.setText(QCoreApplication.translate("MainWindow", u"Sedentary", None))
-        self.lineEdit_seden.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_20.setText(QCoreApplication.translate("MainWindow", u"Glasses Of Fluid", None))
+        self.lineEdit_fluid.setPlaceholderText(QCoreApplication.translate("MainWindow", u"glasses", None))
+        self.label_10.setText(QCoreApplication.translate("MainWindow", u"Default Zone 2", None))
+        self.lineEdit_dz2.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_16.setText(QCoreApplication.translate("MainWindow", u"Default Zone 3", None))
+        self.lineEdit_dz3.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Calories", None))
         self.lineEdit_calories.setText("")
         self.lineEdit_calories.setPlaceholderText(QCoreApplication.translate("MainWindow", u"kal", None))
@@ -1020,18 +997,28 @@ class Ui_MainWindow(object):
         self.lineEdit_max_hr.setPlaceholderText(QCoreApplication.translate("MainWindow", u"bpm", None))
         self.label_5.setText(QCoreApplication.translate("MainWindow", u"Resting Heart Rate", None))
         self.lineEdit_rest_hr.setPlaceholderText(QCoreApplication.translate("MainWindow", u"bpm", None))
+        self.label_15.setText(QCoreApplication.translate("MainWindow", u"Below Default Zone", None))
+        self.lineEdit_dz0.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Default Zone 1", None))
+        self.lineEdit_dz1.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_12.setText(QCoreApplication.translate("MainWindow", u"Time Asleep", None))
+        self.lineEdit_asleep.setText("")
+        self.lineEdit_asleep.setPlaceholderText(QCoreApplication.translate("MainWindow", u"HH:MM", None))
+        self.label_18.setText(QCoreApplication.translate("MainWindow", u"Time Awake", None))
+        self.lineEdit_awake.setText("")
+        self.lineEdit_awake.setPlaceholderText(QCoreApplication.translate("MainWindow", u"HH:MM", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Restlessness", None))
+        self.lineEdit_restl.setPlaceholderText(QCoreApplication.translate("MainWindow", u"[0-1]", None))
         self.label_17.setText(QCoreApplication.translate("MainWindow", u"Alcohol Consumed", None))
         self.lineEdit_alco.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Yes/No", None))
-        self.label_20.setText(QCoreApplication.translate("MainWindow", u"Glasses Of Fluid", None))
-        self.lineEdit_fluid.setPlaceholderText(QCoreApplication.translate("MainWindow", u"glasses", None))
-        self.label_15.setText(QCoreApplication.translate("MainWindow", u"Below DZ", None))
-        self.lineEdit_dz0.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_7.setText(QCoreApplication.translate("MainWindow", u"DZ 1", None))
-        self.lineEdit_dz1.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_10.setText(QCoreApplication.translate("MainWindow", u"DZ 2", None))
-        self.lineEdit_dz2.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
-        self.label_16.setText(QCoreApplication.translate("MainWindow", u"DZ 3", None))
-        self.lineEdit_dz3.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Lightly Active", None))
+        self.lineEdit_light_act.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"Moderately Active", None))
+        self.lineEdit_mod_act.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_11.setText(QCoreApplication.translate("MainWindow", u"Very Active", None))
+        self.lineEdit_very_act.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
+        self.label_14.setText(QCoreApplication.translate("MainWindow", u"Sedentary", None))
+        self.lineEdit_seden.setPlaceholderText(QCoreApplication.translate("MainWindow", u"minutes", None))
         self.label_21.setText(QCoreApplication.translate("MainWindow", u"Meals", None))
         self.checkBox_Breakfast.setText(QCoreApplication.translate("MainWindow", u"Breakfast", None))
         self.checkBox_Dinner.setText(QCoreApplication.translate("MainWindow", u"Dinner", None))
