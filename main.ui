@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>600</width>
-    <height>991</height>
+    <height>1035</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1522,22 +1522,6 @@ QCheckBox::indicator {
            <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
           </property>
           <item>
-           <spacer name="horizontalSpacer_3">
-            <property name="orientation">
-             <enum>Qt::Orientation::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Policy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>80</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
            <widget class="QPushButton" name="pushButton_clear">
             <property name="minimumSize">
              <size>
@@ -1587,20 +1571,35 @@ QPushButton:pressed {
            </widget>
           </item>
           <item>
-           <spacer name="horizontalSpacer_2">
-            <property name="orientation">
-             <enum>Qt::Orientation::Horizontal</enum>
+           <widget class="QPushButton" name="pushButton_load_2">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+              <bold>true</bold>
+             </font>
             </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Policy::Fixed</enum>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+color: rgb(255, 255, 255);
+border: 2px solid rgb(255, 255, 255);
+border-radius: 20px;
+height: 100px;
+width: 100px;
+background-color: rgba(117, 123, 200, 70);
+}
+
+QPushButton:hover {
+	background-color: rgb(141, 154, 225);
+}
+
+QPushButton:pressed {
+	background-color: rgb(141, 158, 255);
+}</string>
             </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>80</width>
-              <height>20</height>
-             </size>
+            <property name="text">
+             <string>Load JSON</string>
             </property>
-           </spacer>
+           </widget>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_eval">
@@ -1644,22 +1643,6 @@ QPushButton:pressed {
              <string>Evaluate</string>
             </property>
            </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_4">
-            <property name="orientation">
-             <enum>Qt::Orientation::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Policy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>80</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
           </item>
          </layout>
         </item>

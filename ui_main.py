@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainmOShia.ui'
+## Form generated from reading UI file 'mainXeHeCj.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.3
 ##
@@ -768,10 +768,6 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3 = QHBoxLayout()
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.horizontalLayout_3.setSizeConstraint(QLayout.SizeConstraint.SetDefaultConstraint)
-        self.horizontalSpacer_3 = QSpacerItem(80, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout_3.addItem(self.horizontalSpacer_3)
-
         self.pushButton_clear = QPushButton(self.page_input)
         self.pushButton_clear.setObjectName(u"pushButton_clear")
         self.pushButton_clear.setMinimumSize(QSize(0, 0))
@@ -798,9 +794,27 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_3.addWidget(self.pushButton_clear)
 
-        self.horizontalSpacer_2 = QSpacerItem(80, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+        self.pushButton_load_2 = QPushButton(self.page_input)
+        self.pushButton_load_2.setObjectName(u"pushButton_load_2")
+        self.pushButton_load_2.setFont(font1)
+        self.pushButton_load_2.setStyleSheet(u"QPushButton {\n"
+"color: rgb(255, 255, 255);\n"
+"border: 2px solid rgb(255, 255, 255);\n"
+"border-radius: 20px;\n"
+"height: 100px;\n"
+"width: 100px;\n"
+"background-color: rgba(117, 123, 200, 70);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(141, 154, 225);\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"	background-color: rgb(141, 158, 255);\n"
+"}")
 
-        self.horizontalLayout_3.addItem(self.horizontalSpacer_2)
+        self.horizontalLayout_3.addWidget(self.pushButton_load_2)
 
         self.pushButton_eval = QPushButton(self.page_input)
         self.pushButton_eval.setObjectName(u"pushButton_eval")
@@ -826,10 +840,6 @@ class Ui_MainWindow(object):
 "}")
 
         self.horizontalLayout_3.addWidget(self.pushButton_eval)
-
-        self.horizontalSpacer_4 = QSpacerItem(80, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout_3.addItem(self.horizontalSpacer_4)
 
 
         self.verticalLayout_11.addLayout(self.horizontalLayout_3)
@@ -1033,6 +1043,7 @@ class Ui_MainWindow(object):
         self.checkBox_Cardio.setText(QCoreApplication.translate("MainWindow", u"Cardio", None))
         self.checkBox_Strength.setText(QCoreApplication.translate("MainWindow", u"Strength", None))
         self.pushButton_clear.setText(QCoreApplication.translate("MainWindow", u"Clear", None))
+        self.pushButton_load_2.setText(QCoreApplication.translate("MainWindow", u"Load JSON", None))
         self.pushButton_eval.setText(QCoreApplication.translate("MainWindow", u"Evaluate", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Sleep Score", None))
         self.label_score.setText(QCoreApplication.translate("MainWindow", u"69", None))
