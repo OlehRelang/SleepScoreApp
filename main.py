@@ -26,7 +26,7 @@ class SleepScoreApp(QMainWindow):
             self.ui.lineEdit_mod_act,
             self.ui.lineEdit_rest_hr,
             self.ui.lineEdit_seden,
-            self.ui.lineEdit_asleep,  # 7
+            self.ui.lineEdit_asleep,  # 7.4
             self.ui.lineEdit_awake,   # 8
             # self.ui.lineEdit_deep_sleep,  # 9
             self.ui.lineEdit_restl,
